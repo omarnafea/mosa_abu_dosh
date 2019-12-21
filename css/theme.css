@@ -1,0 +1,102 @@
+
+body{background-color: #f8f4f1 !important; }
+.DesignHolder { position: relative; display: block; width: 100%; min-height: 100%; background-color: #f8f4f1;}
+
+.LayoutFrame { margin: 0 auto; width: 100%; display: block; }
+
+
+header { width: 100%; position: fixed; top: 0px; left: 0px; height: 70px; background: rgba(0, 0, 0, 0.5); z-index: 9; }
+header .Center { max-width: 1100px; margin: auto; }
+header .site-logo { padding: 15px 0px 0px 0px; width: 160px;height: 70px; float: left; transition: all 0.3s;  }
+header .site-logo h1 { margin: 0px;color: #bc002c;font-weight: 500; }
+header .site-logo:hover {opacity: 0.5;}
+header .site-logo h1 a { font-size: 36px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; text-shadow: rgb(3, 3, 3) 0px 2px 5px; transition: all 0.7s ease;  }
+header.smaller { padding: 0px 0px 0px 0px; height: 30px; transition: all 0.3s; background: rgba(0, 0, 0, 0.75); }
+header.smaller .site-logo {padding: 13px 0px 0px 0px; }
+
+header.smaller .site-logo h1 { line-height: 30px; }
+header.smaller .site-logo h1 a { font-size: 30px;  }
+.textLogo p {font-size: 50px;text-align: center; font-family:  'Open Sans', sans-serif;}
+.textLogo h1 {font-size: 70px; font-weight: bold;text-align: center;font-family: 'Droid Arabic Naskh', serif;}
+
+
+.Navigation { float: right; width: 70%; margin-right: 11px; }
+.Navigation ul { list-style: none; margin: 0px; float: right; }
+.Navigation li { float: left; padding: 0px;  margin: 0px; height: 70px; position: relative; transition: all 0.3s ease; }
+.Navigation li a { padding: 22px 41px 26px 41px; font-size: 18px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; display: block; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+.Navigation li span { 
+	border-bottom: solid 5px #bc002c;
+	background: #bc002c;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #bc002c), color-stop(0%, #bc002c), color-stop(0%, #bc002c), color-stop(100%, rgba(0,0,0,1)));
+	background: linear-gradient(to bottom, #bc002c 0%, #bc002c 0%, #bc002c 0%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38577a', endColorstr='#2c445e', GradientType=0 );
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+.Navigation li:hover span, .Navigation li.active span {
+	opacity: 1;
+}
+
+header.smaller .Navigation li a { padding: 16px 41px; }
+header.smaller .Navigation li { height: 30px; }
+
+.mobile { display: none;  }
+.mobile .fa { padding: 12px 14px; font-size: 31px; width: 55px; height: 55px; color: #fff; cursor: pointer; background: #bc002c; }
+.mobile .fa:hover { background: #bc002c; }
+.mobile.closed .fa-bars { display: none; }
+.mobile .fa-times { padding: 11px 15px; width: 55px; height: 30px; display: none; font-size: 31px; }
+.mobile.closed .fa-times { display: block; }
+
+
+.sliderhome {padding: 0px 0px 0px 0px ;width: 100%; height: 600px;margin: auto;}
+.sliderhome img {width: 100%;height: 600px;}
+	
+	.Contentpanel { padding: 25px 0px 25px 0px ; width: 80%; overflow: hidden; text-align: center;margin: auto;}
+	.Content { padding: 25px 0px 25px 0px ; width: 80%; overflow: hidden; text-align: center;margin: auto;}
+	.Content .card-deck {padding: 20px 20px 20px 20px ;width: 450;height: 450px;}
+	.Content .card-body p {font-size: 18px;font-family: 'Open Sans', sans-serif;font-weight: bold;}
+	.Content .card .slider img {width: 400;height: 400px;margin: auto;padding: 0px 0px 0px 0px }
+	 .panel-body {height: 150px;background-color: white;margin: auto;text-align: center;}
+	 .panel-body div {padding: 25px 25px 25px 25px }
+	 .panel {background-color: white;}
+	 .Contentpanel .card-body img {width: 350px; height: 350px;margin: auto;}
+	 .panel-body:hover {background: -webkit-gradient(left top, left bottom, color-stop(0%, #bc002c), color-stop(0%, #bc002c), color-stop(0%, #bc002c), color-stop(100%, rgba(0,0,0,1)));
+		background: linear-gradient(to bottom, #bc002c 0%, #bc002c 0%, #bc002c 0%, rgba(0,0,0,1) 100%);color: white;}
+		.Contentpanel .card-body:hover{opacity: 0.7 !important;}
+
+
+	#Container { overflow: hidden; width: 140%;}
+	.About_sec .Center { padding: 20px 0px 20px 0px; margin: auto; overflow: hidden; text-align: left; background-color: white;}
+	.About_sec { padding: 60px 0px 60px 0px ; width: 100%; overflow: hidden;margin-left: auto;margin-right: auto;}
+	.About_sec img {width: 100%;height: 100%;}
+	.About_sec .Center h2 {margin-left: 10px;}
+	.About_sec .Center p {margin-left: 20px;}
+
+	.footer { width: 100%; overflow: hidden; }
+	.footer .Contactside { background: #bc002c top center no-repeat; background-size: cover; overflow: hidden;
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, #bc002c), color-stop(0%, #bc002c), color-stop(0%, #bc002c), color-stop(100%, rgba(0,0,0,1)));
+	    background: linear-gradient(to bottom, #bc002c 0%, #bc002c 0%, #bc002c 0%, rgba(0,0,0,1) 100%);}
+	.footer .FooterCenter { padding: 50px 0px 50px 0px; margin: auto; overflow: hidden; text-align: center; }
+	.footer .row div{ padding: 20px 0px 25px 0px; margin: auto;text-align: left;}
+	.footer h2 { font-size: 57px; color: #fff; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px;}
+	.footer p { padding: 10px 0px 10px 0px; font-size: 14px; color: #ebebeb; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
+	.footer .Line { border: solid 1px #bc002c; height: 2px; width: 452px; margin: auto; }
+	.footer .Pricingside { padding: 70px 0px 10px 0px; width: 100%; overflow: hidden; text-align: initial; }
+	
+	
+
+
+
+
+
+
+
+
+
